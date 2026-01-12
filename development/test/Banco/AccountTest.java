@@ -16,6 +16,7 @@ public class AccountTest {
 		
 		Scanner input = new Scanner(System.in);
 		
+		//entrar com um deposito na conta  
 		System.out.printf("Enter deposit amount for account1: "); // prompt
 		double depositAmount = input.nextDouble();
 		System.out.printf("%nadding %.2f to account1 balance%n%n",
@@ -43,4 +44,5 @@ public class AccountTest {
 	}
 
 }
+
 
