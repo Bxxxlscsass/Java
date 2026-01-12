@@ -28,7 +28,7 @@ public class AccountTest {
 		System.out.printf("%s balance: $%.2f %n%n",
 				account2.getName(),account2.getBalance());
 		
-		System.out.printf("enter deposit amopunt for account2: ");
+		System.out.printf("enter deposit amount for account2: ");
 		depositAmount = input.nextDouble();
 		System.out.printf("%nadding %.2f to account2 balance%n%n",
 				depositAmount);
@@ -43,3 +43,4 @@ public class AccountTest {
 	}
 
 }
+
